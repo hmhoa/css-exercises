@@ -1,0 +1,21 @@
+.num1, .num3 {
+    background-color: salmon;
+    font-family: sans-serif
+}
+
+.num3 {
+    font-size: larger;
+}
+
+#num2 {
+    color: blue;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+#num4 {
+    background-color: greenyellow;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: larger;
+}
