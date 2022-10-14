@@ -15,7 +15,7 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
-  padding: 16px;
+  padding: 0px 16px;
   font-size: 32px;
   font-weight: 900;
 }
@@ -29,6 +29,7 @@ body {
 
 .content {
   display: flex;
+  flex: 1;
 }
 
 .sidebar {
@@ -58,7 +59,7 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  gap: 16px;
+  gap: 32px;
   padding: 32px;
 }
 
@@ -67,4 +68,5 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   width: 300px;
+  padding: 16px;
 }
